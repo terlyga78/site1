@@ -4,6 +4,7 @@
 body {
     color: #000;
     font-family: 'Poppins', sans-serif;
+    font-style: 14px;
 }
 
 /* Header */
@@ -23,12 +24,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 
 .logo {
     position: relative;
     padding: 0 12px 3px 0;
-    background-color: aqua;
+    /* background-color: aqua; */
     font-weight: 700;
     font-size: 32px;
     line-height: 1;
@@ -46,3 +48,168 @@ body {
     background-color: #FDA300;
     border-radius: 50%;
 }
+
+/* Nav */
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-item {}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+.header-content {
+    margin-top: 124px;
+    min-width: 500px;
+    /* margin: auto; */
+    /* ! */
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content p {
+    line-height: 2;
+}
+
+.header-nav {
+    /* margin-bottom: 76px; */
+}
+
+/* Service */
+
+.services {
+    padding: 90px 0;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 24px;
+    text-transform: uppercase;
+}
+
+.service-card p {
+    line-height: 2;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.title-1 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.project+.project {
+    margin-top: 90px;
+}
+
+/* Footer */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    color: #828282
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #323232;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+.contacts-content {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    max-width: 480px;
+    font-size: 18px;
+}
+
+.container {}
