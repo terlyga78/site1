@@ -58,6 +58,10 @@ body {
     font-size: 14px;
 }
 
+.nav-button {
+    display: none;
+}
+
 .nav-item {}
 
 .nav-link {
@@ -65,12 +69,12 @@ body {
 }
 
 .nav-link.active {
-    color: #606060;
+    color: #828282;
 }
 
 .header-content {
     margin-top: 124px;
-    min-width: 500px;
+    max-width: 500px;
     /* margin: auto; */
     /* ! */
 }
@@ -104,6 +108,13 @@ body {
 .services-row {
     display: flex;
     column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1 1 0;
+    min-width: 315px;
 }
 
 .service-card-img {
